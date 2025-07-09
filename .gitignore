@@ -1,7 +1,10 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /.vs/Jaxsen-Wadsworth.github.io/FileContentIndex
 /.idea/Jaxsen-Wadsworth.github.io.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/workspace.xml
 /.idea/modules.xml
