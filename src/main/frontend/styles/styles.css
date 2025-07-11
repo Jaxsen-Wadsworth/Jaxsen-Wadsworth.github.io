@@ -37,6 +37,7 @@ nav {
     margin: 20px 0;
 }
 
+
 nav a {
     text-decoration: none;
     color: #2575fc;
@@ -49,6 +50,14 @@ nav a:hover {
     color: #6a11cb;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    font-size: 1.5em;
+}
 /* Portfolio Section */
 .portfolio {
     text-align: center;
