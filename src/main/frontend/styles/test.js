@@ -2,10 +2,10 @@ const canvas = document.getElementById('circuitCanvas');
 const ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
-canvas.height = 200;
+canvas.height = window.innerHeight;
 
 const nodes = [];
-const numNodes = 50;
+const numNodes = 100;
 
 for (let i = 0; i < numNodes; i++) {
     nodes.push({

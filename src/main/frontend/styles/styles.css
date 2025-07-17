@@ -8,16 +8,16 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-    padding: 0 20px;
+    color: #fff;
+    background-color: black;
 }
 
 /* Header Section */
 header {
+    font-family: "Century Gothic";
     text-align: center;
     padding: 50px 0;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: black;
     color: white;
 }
 
@@ -40,7 +40,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #2575fc;
+    color: lime;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -50,11 +50,7 @@ nav a:hover {
     color: #6a11cb;
 }
 
-ul{
-    list-style-type: none;
-}
-
-li{
+nav li{
     display: inline;
     font-size: 1.5em;
 }
