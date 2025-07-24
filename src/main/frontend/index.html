@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaxsen's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Jaxsen Wadsworth</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>I am Jaxsen Wadsworth</h1>
-            <!--add image -->
-            <p>Software Developer | Full-Stack Specialist</p>
+            <canvas id="circuitCanvas"></canvas>
+            <h1>Jaxsen Wadsworth</h1>
+            <!--add image? -->
+            <p>Software Developer</p>
         </div>
     </header>
 
@@ -24,32 +25,32 @@
         </ul>
     </nav>
 
-    <section id="about">
+    <section class="overlay-text" id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm an up-and-coming software developer.</p>
+            <p>I'm an aspiring Software Developer passionate about.</p>
         </div>
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
+        <h2>Projects</h2>
         <div class="project">
             <h3>Java Frameworks</h3>
             <!--add image? -->
             <p>In this project I customized a full stack Spring Framework application</p>
-            <a href="java-frameworks.html">Learn More</a>
+            <a href="projects/java-frameworks.html">Learn More</a>
         </div>
         <div class="project">
            <h3>Back-End Programming</h3>
             <!--add image -->
-           <p>A brief description of the project.</p>
-           <a href="back-end-programming.html">Learn More</a>
+           <p>Here I migrate a legacy Java back-end to a modern Spring framework</p>
+           <a href="projects/back-end-programming.html">Learn More</a>
         </div>
         <div class="project">
             <h3>Advanced Java</h3>
             <!--add image -->
-            <p>A brief description of the project.</p>
-            <a href="advanced-java.html">Learn More</a>
+            <p>I modified a Spring application to include multithreaded language translation, a message at different time zones, and currency exchange</p>
+            <a href="projects/advanced-java.html">Learn More</a>
         </div>
     </section>
 
@@ -79,6 +80,9 @@
             <p>&copy; 2025 Jaxsen Wadsworth. All rights reserved.</p>
         </div>
     </footer>
+
+
+    <script src="styles/script.js"></script>
 </body>
 </html>
 
